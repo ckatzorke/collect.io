@@ -11,7 +11,7 @@ var webpackConfig = {
   },
 
   output: {
-    path: './dist',
+    path: './dist'
   },
 
   plugins: [
@@ -27,22 +27,6 @@ var webpackConfig = {
   }
 
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Our Webpack Defaults
 var defaultConfig = {

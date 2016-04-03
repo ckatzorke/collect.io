@@ -1,7 +1,7 @@
 {
-  "name": "angular2-seed",
+  "name": "collect.io",
   "version": "1.0.0",
-  "description": "A simple starter Angular2 project",
+  "description": "A collector's heaven",
   "scripts": {
     "typings-install": "./node_modules/.bin/typings install",
     "postinstall": "npm run typings-install",
@@ -10,10 +10,9 @@
     "start": "./node_modules/.bin/webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 3000  --content-base src"
   },
   "contributors": [
-    "Rob Wormald <robwormald@gmail.com>",
-    "PatrickJS <github@gdi2290.com>"
+    "Christian Katzorke <ckatzorke@gmail.com>"
   ],
-  "license": "MIT",
+  "license": "WTFPL",
   "devDependencies": {
     "awesome-typescript-loader": "~0.16.2",
     "es6-promise": "3.0.2",
@@ -33,17 +32,14 @@
     "zone.js": "~0.6.6"
   },
   "keywords": [
-    "Angular2",
-    "angular2-seed",
-    "official angular 2 seed",
-    "official angular2 seed"
+    
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angular/angular2-seed.git"
+    "url": "git+https://github.com/ckatzorke/collect.io.git"
   },
   "bugs": {
-    "url": "https://github.com/angular/angular2-seed/issues"
+    "url": "https://github.com/ckatzorke/collect.io/issues"
   },
-  "homepage": "https://github.com/angular/angular2-seed#readme"
+  "homepage": ""
 }
