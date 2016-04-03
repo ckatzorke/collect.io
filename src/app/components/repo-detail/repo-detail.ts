@@ -5,8 +5,8 @@ import {Github} from '../../services/github';
 
 @Component({
   selector: 'repo-detail',
-  templateUrl: 'app/components/repo-detail/repo-detail.html',
-  styleUrls: ['app/components/repo-detail/repo-detail.css'],
+  template: require('./repo-detail.html'),
+  styles: [require('./repo-detail.css')],
   providers: [],
   directives: [ ROUTER_DIRECTIVES ],
   pipes: []

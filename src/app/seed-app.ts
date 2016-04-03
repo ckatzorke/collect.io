@@ -10,7 +10,7 @@ import {RepoBrowser} from './components/repo-browser/repo-browser';
   providers: [],
   pipes: [],
   directives: [ROUTER_DIRECTIVES],
-  templateUrl: 'app/seed-app.html',
+  template: require('./seed-app.html'),
 })
 @RouteConfig([
   { path: '/home',       component: Home,        name: 'Home', useAsDefault: true },

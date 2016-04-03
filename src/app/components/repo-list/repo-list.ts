@@ -5,8 +5,8 @@ import {RouteParams, ROUTER_DIRECTIVES} from 'angular2/router';
 
 @Component({
   selector: 'repo-list',
-  templateUrl: 'app/components/repo-list/repo-list.html',
-  styleUrls: ['app/components/repo-list/repo-list.css'],
+  template: require('./repo-list.html'),
+  styles: [require('./repo-list.css')],
   providers: [],
   directives: [ ROUTER_DIRECTIVES ],
   pipes: []
